@@ -80,21 +80,38 @@ sportsCar.drive(); */
 
 //                                          + Bonus
 
-// 1. Kitob klassini yaratish
+/* // 1. Kitob klassini yaratish
 class Book {
-    title = 'The Alchemist';
-    author = 'Paulo Coelho';
-    year = 1988;
+    constructor(title, author, year) {
+        this.title = title;
+        this.author = author;
+        this.year = year;
+    }
     
     getSummary() {
         return `Title: ${this.title}, Author: ${this.author}, Year: ${this.year}`;
     }
 }
 
-const defaultBook = new Book;
+const myBook = new Book('The Alchemist','Paulo Coelho', 1988);
 const book1 = new Book('Dollarlik muaffaqiyat','Silvester Stollone',1976);
-const book2 = new Book;
+const book2 = new Book('Bilmasvoy quyosh shaxrida','Nikolay Nosov', 2003);
 
-console.log(defaultBook.getSummary());
+console.log(myBook.getSummary());
 console.log(book1.getSummary());
-console.log(book2.getSummary());
+console.log(book2.getSummary()); */
+
+/* // 2. Telefon klassini yaratish
+class Phone {
+    constructor(brand, model, price) {
+        this.brand = brand;
+        this.model = model;
+        this.price = price;
+    }
+    call() {
+        console.log(`Calling from ${this.brand} ${this.model} $${this.price} ...`);
+    }
+}
+
+const myPhone = new Phone('Apple', 'Iphone 16', 1500);
+myPhone.call(); */
